@@ -7,3 +7,5 @@ g++ -std=c++14 -pthread timed_mutex.cpp -o timed_mutex_example
 Pointers:
 g++ -o pointers pointers.cpp
 
+Semaphore:
+g++ -std=c++20 -pthread semaphore.cpp -o semaphore
